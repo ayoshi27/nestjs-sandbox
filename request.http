@@ -1,0 +1,22 @@
+
+###
+GET http://localhost:3000/
+
+###
+GET http://localhost:3000/1
+
+###
+GET http://localhost:3000/cats/
+
+###
+GET http://localhost:3000/cats/1
+
+###
+POST http://localhost:3000/cats
+content-type: application/json
+
+{
+  "name": "名前",
+  "age": 5,
+  "breed": "品種"
+}
